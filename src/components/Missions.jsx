@@ -1,4 +1,5 @@
 import React from 'react';
+import Title from './Title';
 // import PropTypes from 'prop-types';
 
 class Missions extends React.Component {
@@ -6,7 +7,7 @@ class Missions extends React.Component {
     // const { planetName, planetImage } = this.props;
     return (
       <div data-testid="missions">
-        algo
+        <Title headline="missões" />
       </div>
     );
   }
