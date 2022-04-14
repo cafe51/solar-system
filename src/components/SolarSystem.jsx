@@ -14,7 +14,7 @@ class SolarSystem extends React.Component {
           const retorno = (<PlanetCard
             key={ element.name }
             planetName={ element.name }
-            planetImage={ Planets.image }
+            planetImage={ element.image }
           />);
           return retorno;
         })}
